@@ -26,7 +26,7 @@ return {
       lspconfig.pyright.setup({
         capabilities = capabilities
       })
-      lspconfig.tsserver.setup({
+      lspconfig.ts_ls.setup({
         capabilities = capabilities
       })
       lspconfig.solargraph.setup({
